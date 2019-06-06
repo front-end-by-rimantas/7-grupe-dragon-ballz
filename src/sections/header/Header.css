@@ -1,0 +1,18 @@
+header {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #CCC;
+}
+    header > .logo {
+        display: inline-block;
+        float: left;
+        padding: 10px 0;
+    }
+    header > nav {
+        display: inline-block;
+        float: right;
+    }
+        header > nav > a {
+            display: inline-block;
+            padding: 10px 10px;
+        }
